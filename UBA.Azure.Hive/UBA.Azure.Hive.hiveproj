@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c1b657cf-9f31-45af-8482-d30b7a848d19</ProjectGuid>
+    <OutputType>File</OutputType>
+    <AssemblyName>Hive</AssemblyName>
+    <StartFile>Script.hql</StartFile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Name>UBA.Azure.Hive</Name>
+    <RootNamespace>UBA.Azure.Hive</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Script Include="query.hql" />
+    <Script Include="Script.hql" />
+  </ItemGroup>
+  <Import Project="$(AppData)\Microsoft\HDInsight Tools for Visual Studio\MsBuild\1.0\Hive.targets" />
+</Project>

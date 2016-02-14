@@ -1,0 +1,5 @@
+            CssParser cssParser = new CssParser();
+            cssParser.AddStyleSheet("ABSOLUTE PATH TO CSS FILE");
+			
+			CssHtmlMerger.MergeHtmlAndCss(cssParser, "HTML CODE");
+			

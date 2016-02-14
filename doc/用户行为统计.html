@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>用户行为统计</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h2>魔方格-用户行为统计数据</h2>
+<h3>App客户端用户数据结构<br></h3>
+<p>&#160; &#160; &#160;<strong>用户base信息格式：</strong><br>
+{<br></p>
+<h4>&#160; &#160; &#160; &quot;base&quot;:&quot;应用ID\f用户登录ip\f硬件品牌\f网络运营商\f显示屏分辩率\f渠道\f客户端版本号\f操作系统\f操作系统版本\f浏览器\f浏览器版本&quot;,<br></h4>
+<h4>&#160; &#160; &#160; &#160;&quot;act:&quot;memo1\fmemo2\fmemo3\fmemo4\fmemo5\factid\fdatetime;<br></h4>
+<h4>&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;memo1\fmemo2\fmemo3\fmemo4\fmemo5\factid\fdatetime&quot;<br></h4>
+<p>}</p>
+<h3>Server客户端用户数据结构<br></h3>
+<p>{<br></p>
+<h4>&#160; &#160; &#160; &quot;base&quot;:&quot;应用ID\f用户登录ip\f硬件品牌\f网络类型\f网络运营商\f显示屏分辩率\f渠道\f客户端版本号\f操作系统\f操作系统版本\f浏览器\f浏览器版本&quot;,<br></h4>
+<h4>&#160;&#160; &#160;&quot;uinfo&quot;:&quot;备用字段1\f备用字段2\f备用字段3\f备用字段4\f备用字段5\f魔方格账号\f性别\f年级\fqq\f手机号\f学校信息\f好友数量\f魔豆数量\f阶段\f科别\f注册时间&quot;<br></h4>
+<h4>&#160; &#160; &#160; &#160;&quot;act:&quot;memo1\fmemo2\fmemo3\fmemo4\fmemo5\factid\fdatetime;<br></h4>
+<h4>&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;memo1\fmemo2\fmemo3\fmemo4\fmemo5\factid\fdatetime&quot;<br></h4>
+<p>}</p>
+<h3></h3>
+<h3>Note:所有分隔以换页符（\f）分隔,多属性用;分隔</h3>
+<h2>基本信息base字段描述</h2>
+<table>
+<tbody>
+<tr><td><em></em>字段</td><td><em></em>描述</td><td><em>备注</em></td>
+<tr><td>appid</td><td>应用ID</td><td>0：魔方格App</td></tr>
+<tr><td>ip</td><td>用户登录ip</td><td></td></tr>
+<tr><td>hb</td><td>硬件品牌</td><td>存入实际可以取到的手机品牌，无法统计到品牌记为（other）</td></tr>
+<tr><td>operator</td><td>网络运营商</td><td>APP端采集(0:中国移动，1:中国联通，2:中国电信，3:其他) </td></tr>
+<tr><td>dr</td><td>显示屏分辩率</td><td>格式：长 * 高 * 分辨率（统计不到为空）</td></tr>
+<tr><td>ch</td><td>渠道</td><td>详情见渠道详情表</td></tr>
+<tr><td>version</td><td>客户端版本号</td><td>2.10/2.20/...</td></tr>
+<tr><td>fm</td><td>操作系统</td><td>0：Android 1：IOS 2：Web</td></tr>
+<tr><td>os</td><td>操作系统版本</td><td></td></tr>
+<tr><td>browser</td><td>浏览器</td><td>PC端采集，App可不采集</td></tr>
+<tr><td>bversion</td><td>浏览器版本</td><td>PC端采集，App可不采集</td></tr>
+</tbody>
+</table>
+<h3>渠道详情表</h3>
+<table>
+<tbody>
+<tr><td><em></em>渠道</td><td><em></em>渠道编号</td>
+<tr><td>魔方格(mofangge)</td><td>mofangge</td>
+<tr><td>应用汇(appchina)</td><td>appchina</td>
+<tr><td>百度手助(baidu)</td><td>baidu</td>
+<tr><td>360手助(360zhushou)</td><td>360zhushou</td>
+<tr><td>我要当学霸(wydxb)</td><td>wydxb</td>
+<tr><td>小米市场(xiaomimarket)</td><td>xiaomimarket</td>
+<tr><td>oppo</td><td>oppo</td>
+<tr><td>豌豆荚(wandoujia)</td><td>wandoujia</td>
+<tr><td>UC市场(ucmarket)</td><td>ucmarket</td>
+<tr><td>卓易推荐位(apptj)</td><td>apptj</td>
+<tr><td>作业神器导量(zysq)</td><td>zysq</td>
+<tr><td>安智(anzhimarket)</td><td>anzhimarket</td>
+<tr><td>乐商店(lenovo)</td><td>lenovo</td>
+<tr><td>金立易用汇(jinliyiyonghui)</td><td>jinliyiyonghui</td>
+<tr><td>魅族(meizu)</td><td>meizu</td>
+<tr><td>搜狗助手(sougouzhushou)</td><td>sougouzhushou</td>
+<tr><td>易玩市场(zypc)</td><td>zypc</td>
+<tr><td>应用宝(myapp)</td><td>myapp</td>
+<tr><td>随玩市场(suiwan)</td><td>suiwan</td>
+<tr><td>沃商店(wostore)</td><td>wostore</td>
+<tr><td>木蚂蚁(mumayi)</td><td>mumayi</td>
+<tr><td>搜狗市场(sougou)</td><td>sougou</td>
+<tr><td>91zs</td><td>91zs</td>
+<tr><td>WiFi万能钥匙(wifiwnys)</td><td>wifiwnys</td>
+<tr><td>多盟广点通(dmgdt)</td><td>dmgdt</td>
+<tr><td>有道词典(youdaocidian)</td><td>youdaocidian</td>
+<tr><td>xuexiao1</td><td>xuexiao1</td>
+<tr><td>应用宝CPD(yingyongbaocpd)</td><td>yingyongbaocpd</td>
+<tr><td>卓易市场旧版(zyapp)</td><td>zyapp</td>
+<tr><td>狐狸助手(hulizhuhou)</td><td>hulizhuhou</td>
+<tr><td>安卓市场(himarket)</td><td>himarket</td>
+<tr><td>全民免费(qmmf)</td><td>qmmf</td>
+<tr><td>优亿市场(eoemarket)</td><td>eoemarket</td>
+<tr><td>安易市场(anyisc)</td><td>anyisc</td>
+<tr><td>百度应用通(bdyyt)</td><td>bdyyt</td>
+<tr><td>择众广点通(zzgdt)</td><td>zzgdt</td>
+<tr><td>书签二维码(qpshuqian)</td><td>qpshuqian</td>
+<tr><td>生日管家（srgj）</td><td>srgj</td>
+
+</tbody>
+</table>
+<h2>用户信息uinfo字段描述(server)</h2>
+<table>
+<tbody>
+<tr><td><em></em>字段</td><td><em></em>描述</td><td><em>备注</em></td></tr>
+<tr><td>memo1</td><td>备用字段1</td><td></td></tr>
+<tr><td>memo2</td><td>备用字段2</td><td></td></tr>
+<tr><td>memo3</td><td>备用字段3</td><td></td></tr>
+<tr><td>memo4</td><td>备用字段4</td><td></td></tr>
+<tr><td>memo5</td><td>备用字段5</td><td></td></tr>
+<tr><td>userid</td><td>魔方格账号</td><td></td></tr>
+<tr><td>sex</td><td>性别</td><td></td></tr>
+<tr><td>grade</td><td>年级</td><td></td></tr>
+<tr><td>qq</td><td>是否绑定QQ</td><td>0：否 1：是</td></tr>
+<tr><td>mobile</td><td>是否绑定手机号</td><td>0：否 1：是</td></tr>
+<tr><td>sch</td><td>学校信息</td><td></td></tr>
+<tr><td>frs</td><td>好友数量</td><td></td></tr>
+<tr><td>mdou</td><td>魔豆数量</td><td></td></tr>
+<tr><td>sta</td><td>阶段</td><td>0:小学 1:初中 2:高中</td></tr>
+<tr><td>kb</td><td>学制</td><td>0:文科 1:理科 2:不分文理 3:六三制 4:五四制</td></tr>
+<tr><td>rtm</td><td>注册时间</td><td>只保留日期部分</td></tr>
+</tbody>
+</table>
+<h3>Note:此处由server端统计和APP提交的信息汇总提交到统计文件保存接口</h3>
+<blockquote>
+<h3>Note:APPID=0时,所有行为memo1字段存入lev信息</h3>
+<table>
+<tbody>
+<tr><td><em></em>字段</td><td><em></em>描述</td><td>自定义字段</td><td><em>备注</em></td></tr>
+<tr><td>lev</td><td>级别</td><td></td><td>0:青铜 1:白银 2:黄金 3:白金 4:钻石 5:王者 </td></tr>
+</tbody>
+</table>
+<h3>memo2字段存入用户所有任务信息，按顺序存入，以换页符（\f）分隔，格式为：<br></h3>
+<p>checkin\ffheadimge\ffsch\ffqq\ffmobile\ffse\ffgpk\ffpk</p>
+<table>
+<tbody>
+<tr><td><em></em>字段</td><td><em></em>描述</td><td>自定义字段</td><td><em>备注</em></td></tr>
+<tr><td>checkin</td><td>领取签到</td><td></td><td>0:代表未完成 1:代表已完成</td></tr>
+<tr><td>fheadimge</td><td>新手任务-上传头像达成</td><td></td><td>0:代表未完成 1:代表已完成</td></tr>
+<tr><td>fsch</td><td>新手任务-完善学校达成</td><td></td><td>0:代表未完成 1:代表已完成</td></tr>
+<tr><td>fqq</td><td>新手任务-绑定QQ达成</td><td></td><td>0:代表未完成 1:代表已完成</td></tr>
+<tr><td>fmobile</td><td>新手任务-绑定手机达成</td><td></td><td>0:代表未完成 1:代表已完成</td></tr>
+<tr><td>fse</td><td>日常任务-3场单人练习达成</td><td></td><td>0:代表未完成 1:代表已完成</td></tr>
+<tr><td>fgpk</td><td>日常任务-2场全球PK达成</td><td></td><td>0:代表未完成 1:代表已完成</td></tr>
+<tr><td>fpk</td><td>日常任务-1场好友PK达成</td><td></td><td>0:代表未完成 1:代表已完成</td></tr>
+</tbody>
+</table>
+<h3>memo3字段存入medals （勋章数量）</h3>
+<h3>memo4字段存入jingyan （经验值）</h3>
+</blockquote>
+<h2></h2>
+<h3>用户行为统一格式</h3>
+<table>
+<tbody>
+<tr><td><em></em>字段</td><td><em></em>描述</td><td><em>备注</em></td></tr>
+<tr><td>memo1</td><td>备用字段1</td><td></td></tr>
+<tr><td>memo2</td><td>备用字段2</td><td></td></tr>
+<tr><td>memo3</td><td>备用字段3</td><td></td></tr>
+<tr><td>memo4</td><td>备用字段4</td><td></td></tr>
+<tr><td>memo5</td><td>备用字段5</td><td></td></tr>
+<tr><td>actid</td><td>行为ID</td><td></td></tr>
+<tr><td>datetime</td><td>行为发生时间</td><td></td></tr>
+</tbody>
+</table>
+<h3>Note：当发生登录行为时，memo2字段存入网络类型（其他行为不用统计）</h3>
+<h3>用户做题（Server）</h3>
+<table>
+<tbody>
+<tr><td><em></em>行为ID</td><td><em></em>描述</td><td><em>时间</em><td><em>结果</em></td><td>描述</td>
+<tr><td>dexer</td><td>单人练习</td><td>单人练习结束时间</td><td>科目分类编号+科目产生的错题数,例子：1,3 (代表数学题错3道) memo1字段存入科目分类编号，memo2字段存入错题数</td><td>科目编号:01:语文02:数学03:英语04:物理05:化学06:地理07:历史08:政治09:生物
+</td></tr>
+<tr><td>gpk</td><td>全球PK</td><td>全球PK结束时间</td><td>科目分类编号+科目产生的错题数+是否机器人+PK结果，例子：1,3,0,0(代表挑战者数学题错3道,PK失败) memo1字段科目分分类编号，memo2字段存入PK错题数，memo3存入是否是机器人，memo4 存入PK结果</td><td> 科目编号+是否机器人（0：不是 1：是)+PK结果(0:失败：1胜利)
+</td></tr>
+<tr><td>fpk</td><td>好友PK</td><td>好友PK结束时间</td><td>科目分类编号+科目产生的错题数+是否受邀+PK结果，例子：1,3,0,0(代表挑战者数学题错3道,PK失败)memo1字段科目分分类编号，memo2字段存入PK错题数，memo3存入是否受邀，memo4存入PK结果</td><td>科目编号+是否受邀（0：挑战，1受邀)+PK结果(0:失败：1胜利)</td></tr>
+<tr><td>cexer</td><td>定制化练习</td><td>定制化练习结束时间</td><td>科目分类编号+科目产生的错题数。memo1字段存入科目分类编号，memo2字段存入错题数</td><td>科目编号</td></tr>
+</tbody>
+</table>
+<h2>文档说明</h2>
+<h4>以memo开头的字段，都是自定义字段，会根据不同的行为，存储不同的信息.默认为空,例子：0|1|0|1|1|1|1|1|<br>  以<strong>|</strong>符号分隔<br></h4>
+<h4>Note：标明server的代表是服务器端统计，App不用统计</h4>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>2c6b7538-5696-4527-9384-685fc3cc12fa</ProjectGuid>
+    <OutputType>File</OutputType>
+    <AssemblyName>Hive</AssemblyName>
+    <StartFile>WebLogAnalysis.hql</StartFile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Name>Hive Getting Started Sample</Name>
+    <RootNamespace>Hive Getting Started Sample</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Script Include="SensorDataAnalysis.hql" />
+    <Script Include="WebLogAnalysis.hql" />
+  </ItemGroup>
+  <Import Project="$(AppData)\Microsoft\HDInsight Tools for Visual Studio\MsBuild\1.0\Hive.targets" />
+</Project>
