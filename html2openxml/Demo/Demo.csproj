@@ -82,6 +82,7 @@
     <None Include="RowSpan.htm" />
     <Content Include="Demo2.htm" />
     <None Include="N1.txt" />
+    <Content Include="N2.txt" />
     <Content Include="NumberingList.htm" />
     <Content Include="CompleteRunTest.html" />
     <Content Include="Demo.htm" />
@@ -91,6 +92,10 @@
     <None Include="images\wikipédia.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\mathjax2word\Mathjax2Word.csproj">
+      <Project>{194bac5b-d4bc-4705-bc98-6f749632ea66}</Project>
+      <Name>Mathjax2Word</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Trunk\HtmlToOpenXml.csproj">
       <Project>{ef700f30-c9bb-49a6-912c-e3b77857b514}</Project>
       <Name>HtmlToOpenXml</Name>

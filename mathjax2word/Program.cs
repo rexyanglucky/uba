@@ -37,7 +37,7 @@ namespace mathjax2word
 
            
             string body = @"计算：<br>1.(5\({a}^{2}\)+2a)-4(2+2\({a}^{2}\))<br>2.(\({x}^{2}\)+4)(x+2)(x-2)";
-            body = File.ReadAllText("E:\\N1.txt");
+            //body = File.ReadAllText("I:\\N1.txt");
             OpenXmlWord word = new OpenXmlWord("E:\\a1.docx");
             word.WriteTextToWord(body);
             word.Close();

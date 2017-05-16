@@ -25,18 +25,16 @@ namespace CopyFile
         public bool IsVisible { get; set; }
 
         public int Id { get; set; }
+        /// <summary>
+        /// 是否是线上0 线下 1线上
+        /// </summary>
+        public int IsOnLine = 0;
     }
-    //public class SourceModel
-    //{
-
-    //    public string MyProperty { get; set; }
-    //    public string ServerUserName { get; set; }
-    //    public string ServerPwd { get; set; }
-    //    public string SourceDirectory { get; set; }
-
-    //    /// <summary>
-    //    /// SFTP WINDOWS
-    //    /// </summary>
-    //    public int Type { get; set; }
-    //}
+    public class DelModel {
+        public string SourceDirectory { get; set; }
+    }
+    public class PubModel {
+        public List<ServerModel> FtpList { get; set; }
+        public List<DelModel> DelList { get; set; }
+    }
 }

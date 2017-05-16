@@ -169,6 +169,19 @@ namespace Demo.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;style type=&quot;text/css&quot;&gt;/*ħ????????*/
+        ///.artpreview fieldset { padding-top: 10px; font-size: 14px; clear: both; overflow: hidden; zoom: 1; line-height: 24px; font-family: &quot;????&quot;,sans-serif; position: relative; }
+        ///.artpreview fieldset legend { padding: 5px 0; display: block; margin: 5px; background: #f1f1f1; color: #000; overflow: hidden; zoom: 1; }
+        ///.queserror { border: 1px dotted #f00; padding: 2px; }
+        ///fieldset.quesborder { font-size: 13px; display: block; border: 1px solid #ccc; padding: 0; font-family: ??? [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string N2 {
+            get {
+                return ResourceManager.GetString("N2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;ol&gt;
         ///    &lt;li&gt;1&lt;/li&gt;
         ///    &lt;li&gt;2

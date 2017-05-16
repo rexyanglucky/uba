@@ -157,20 +157,24 @@ namespace CopyFile
         {
             try
             {
+                //判断传入的是否是文件
+                DirectoryInfo dir = new DirectoryInfo(srcPath);
+
                 // 检查目标目录是否以目录分割字符结束如果不是则添加之
-                if (!aimPath[aimPath.Length - 1].Equals(helper.DefPath))
+                if (!aimPath[aimPath.Length - 1].ToString().Equals(helper.DefPath))
                     aimPath += helper.DefPath;
                 // 判断目标目录是否存在如果不存在则新建之
                 if (!helper.DirExist(aimPath))
                 {
                     helper.Mkdir(aimPath);
                 }
-                DirectoryInfo dir = new DirectoryInfo(srcPath);
+
                 //是文件   
                 if ((dir.Attributes & FileAttributes.Directory) == 0)
                 {
                     helper.Put(srcPath, aimPath + Path.GetFileName(srcPath));
                     ShowMessage(0, srcPath + "-->" + aimPath + Path.GetFileName(srcPath));
+                    return;
                 }
                 // 得到源目录的文件列表，该里面是包含文件以及目录路径的一个数组
                 //如果你指向copy目标文件下面的文件而不包含目录请使用下面的方法
@@ -197,7 +201,7 @@ namespace CopyFile
         }
 
 
-        internal static void UploadFile( ServerModel destModel, Action<int, string> ShowMessage)
+        internal static void UploadFile(ServerModel destModel, Action<int, string> ShowMessage)
         {
             try
             {

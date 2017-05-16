@@ -64,11 +64,11 @@ namespace mathjax2word
                 objMainDocumentPart.Document.Save();
             }
         }
-        ~OpenXmlWord()
-        {
-            _wordDoc.Close();
-            _wordDoc.Dispose();
-        }
+        //~OpenXmlWord()
+        //{
+        //    _wordDoc.Close();
+        //    _wordDoc.Dispose();
+        //}
         /// <summary>
         /// 关闭文档
         /// </summary>

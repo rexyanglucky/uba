@@ -14,7 +14,7 @@ namespace Demo
         static void Main(string[] args)
         {
             const string filename = "test.docx";
-            string html = Demo.Properties.Resources.CompleteRunTest;
+            string html = Demo.Properties.Resources.N2;
             if (File.Exists(filename)) File.Delete(filename);
 
             using (MemoryStream generatedDocument = new MemoryStream())
@@ -45,7 +45,14 @@ namespace Demo
 
 
                     converter.ParseHtml(html);
+                    var run1 = new Run();
+
+                    DocumentFormat.OpenXml.Wordprocessing.Paragraph p = new Paragraph();
+                    new mathjax2word.OpenXmlWord().WritOfficeMathMLToWord("<m:oMath xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><m:sSup><m:e><m:r><m:t>（2x）</m:t></m:r></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:oMath>", run1);
+                    p.Append(run1);
+                    body.Append(p);
                     mainPart.Document.Save();
+               
 
                     //AssertThatOpenXmlDocumentIsValid(package);
                 }

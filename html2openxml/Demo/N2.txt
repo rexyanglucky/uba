@@ -1,163 +1,107 @@
-<span class="qseq"></span>下列运算正确的是（　　）
-<table class="ques quesborder" style="WIDTH: 100%">
-<tbody>
-<tr>
-<td class="selectoption" style="WIDTH: 48%"><label>A．a<sup>4</sup>+a<sup>5</sup>=a<sup>9</sup></label></td>
-<td class="selectoption" style="WIDTH: 48%"><label>B．a<sup>3</sup>•a<sup>3</sup>•a<sup>3</sup>=3a<sup>3</sup></label></td></tr>
-<tr>
-<td class="selectoption" style="WIDTH: 48%"><label class=" s">C．2a<sup>4</sup>×3a<sup>5</sup>=6a<sup>9</sup></label></td>
-<td class="selectoption" style="WIDTH: 48%"><label>D．（-a<sup>3</sup>）<sup>4</sup>=a<sup>7</sup></label></td></tr></tbody></table>
-<br><br>
-<span class="qseq"></span>计算-（-3a<sup>2</sup>b<sup>3</sup>）<sup>4</sup>的结果是（　　）
-<table class="ques quesborder" style="WIDTH: 100%">
-<tbody>
-<tr>
-<td class="selectoption" style="WIDTH: 23%"><label>A．81a<sup>8</sup>b<sup>12</sup></label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>B．12a<sup>6</sup>b<sup>7</sup></label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>C．-12a<sup>6</sup>b<sup>7</sup></label></td>
-<td class="selectoption" style="WIDTH: 23%"><label class=" s">D．-81a<sup>8</sup>b<sup>12</sup></label></td></tr></tbody></table>
-<br><br>
-<span class="qseq"></span>如果（x+a）（x+b）的积中不含x的一次项，那么a，b一定（　　）
-<table class="ques quesborder" style="WIDTH: 100%">
-<tbody>
-<tr>
-<td class="selectoption" style="WIDTH: 23%"><label>A．互为倒数</label></td>
-<td class="selectoption" style="WIDTH: 23%"><label class=" s">B．互为相反数</label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>C．a=b且b=0</label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>D．ab=0</label></td></tr></tbody></table>
-<br><br>
-<span class="qseq"></span>化简2<sup>m</sup>•4<sup>n</sup>的结果是（　　）
-<table class="ques quesborder" style="WIDTH: 100%">
-<tbody>
-<tr>
-<td class="selectoption" style="WIDTH: 23%"><label class=" s">A．2<sup>m+2n</sup></label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>B．（2×4）<sup>mn</sup></label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>C．2×2<sup>mn</sup></label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>D．（2×4）<sup>m+n</sup></label></td></tr></tbody></table>
-<br><br>
-<span class="qseq"></span>陈华以8折的优惠价钱买了一双鞋子，节省了20元，那么他买鞋子时实际用了（　　）<table style="width:100%" class="ques quesborder"><tr><td style="width:23%" class="selectoption"><label class="">A．60元</label></td><td style="width:23%" class="selectoption"><label class=" s">B．80元</label></td><td style="width:23%" class="selectoption"><label class="">C．100元</label></td><td style="width:23%" class="selectoption"><label class="">D．150元</label></td></tr></table>
-<br><br>
-<span class="qseq"></span>化简（a<sup>3</sup>-3a<sup>2</sup>+5b）+（5a<sup>2</sup>-6ab）-（a<sup>2</sup>-5ab+7b），当a=-1，b=-2时，求值得（　　）
-<table class="ques quesborder" style="WIDTH: 100%">
-<tbody>
-<tr>
-<td class="selectoption" style="WIDTH: 23%"><label>A．4</label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>B．48</label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>C．0</label></td>
-<td class="selectoption" style="WIDTH: 23%"><label class=" s">D．2</label></td></tr></tbody></table>
-<br><br>
-<span class="qseq"></span>下列各式的计算中不正确的个数是（　　）<br>①10<sup>0÷</sup>10<sup>-1</sup>=10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②10<sup>-4</sup>（2×7）<sup>0</sup>=1000<br>③（-0.1）<sup>0</sup>÷（-2<sup>-1</sup>）<sup>-3</sup>=8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;④（-10）<sup>-4</sup>÷（-10<sup>-1</sup>）<sup>-4</sup>=-1<table style="width:100%" class="ques quesborder"><tr><td style="width:23%" class="selectoption"><label class="">A．4个</label></td><td style="width:23%" class="selectoption"><label class=" s">B．3个</label></td><td style="width:23%" class="selectoption"><label class="">C．2个</label></td><td style="width:23%" class="selectoption"><label class="">D．1个</label></td></tr></table>
-<br><br>
-<img alt="魔方格" src="http://pic3.mofangge.com/upload/papers/c02/20151029/20151029220422893891.png" style="vertical-align:middle;FLOAT:right;"><span class="qseq"></span>如图，甲、乙、丙、丁四位同学给出了四种表示该长方形面积的多项式：<br>①（2a+b）（m+n）；　　　<br>②2a（m+n）+b（m+n）；<br>③m（2a+b）+n（2a+b）；　<br>④2am+2an+bm+bn，<br>你认为其中正确的有（　　）<table style="width:100%" class="ques quesborder"><tr><td style="width:23%" class="selectoption"><label class="">A．①②</label></td><td style="width:23%" class="selectoption"><label class="">B．③④</label></td><td style="width:23%" class="selectoption"><label class="">C．①②③</label></td><td style="width:23%" class="selectoption"><label class=" s">D．①②③④</label></td></tr></table>
-<br><br>
-<span class="qseq"></span>已知（a+b）<sup>2</sup>=9，ab=-1<span class="MathJye" mathtag="math" style="whiteSpace:nowrap;wordSpacing:normal;wordWrap:normal"><table cellpadding="-1" cellspacing="-1" style="margin-right:1px"><tr><td style="border-bottom:1px solid black">1</td></tr><tr><td>2</td></tr></table></span>，则a<sup>2</sup>+b<sup>2</sup>的值等于（　　）<table style="width:100%" class="ques quesborder"><tr><td style="width:23%" class="selectoption"><label class="">A．84</label></td><td style="width:23%" class="selectoption"><label class="">B．78</label></td><td style="width:23%" class="selectoption"><label class=" s">C．12</label></td><td style="width:23%" class="selectoption"><label class="">D．6</label></td></tr></table>
-<br><br>
-<span class="qseq"></span>如果ax<sup>2</sup>+2x+<span class="MathJye" style="whiteSpace: nowrap; wordSpacing: normal; wordWrap: normal" mathtag="math">
-<table style="MARGIN-RIGHT: 1px" cellspacing="-1" cellpadding="-1">
-<tbody>
-<tr>
-<td style="BORDER-BOTTOM: black 1px solid">1</td></tr>
-<tr>
-<td>2</td></tr></tbody></table></span>=（2x+<span class="MathJye" style="whiteSpace: nowrap; wordSpacing: normal; wordWrap: normal" mathtag="math">
-<table style="MARGIN-RIGHT: 1px" cellspacing="-1" cellpadding="-1">
-<tbody>
-<tr>
-<td style="BORDER-BOTTOM: black 1px solid">1</td></tr>
-<tr>
-<td>2</td></tr></tbody></table></span>）<sup>2</sup>+m，则a，m的值分别是（　　）
-<table class="ques quesborder" style="WIDTH: 100%">
-<tbody>
-<tr>
-<td class="selectoption" style="WIDTH: 23%"><label>A．2，0</label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>B．4，0</label></td>
-<td class="selectoption" style="WIDTH: 23%"><label>C．2，<span class="MathJye" style="whiteSpace: nowrap; wordSpacing: normal; wordWrap: normal" mathtag="math">
-<table style="MARGIN-RIGHT: 1px" cellspacing="-1" cellpadding="-1">
-<tbody>
-<tr>
-<td style="BORDER-BOTTOM: black 1px solid">1</td></tr>
-<tr>
-<td>4</td></tr></tbody></table></span></label></td>
-<td class="selectoption" style="WIDTH: 23%"><label class=" s">D．4，<span class="MathJye" style="whiteSpace: nowrap; wordSpacing: normal; wordWrap: normal" mathtag="math">
-<table style="MARGIN-RIGHT: 1px" cellspacing="-1" cellpadding="-1">
-<tbody>
-<tr>
-<td style="BORDER-BOTTOM: black 1px solid">1</td></tr>
-<tr>
-<td>4</td></tr></tbody></table></span></label></td></tr></tbody></table>
-<br><br>
-<span class="qseq"></span>计算8<sup>2015</sup>×（-0.125）<sup>2015</sup>=<!--BA-->
-<div class="quizPutTag">-1</div><!--EA-->
-<div class="sanwser">-1</div>．
-<br><br>
-<span class="qseq"></span>计算（4x<sup>2</sup>y+3xy<sup>2</sup>）÷7xy=<!--BA-->
-<div class="quizPutTag"><span class="MathJye" style="whiteSpace: nowrap; wordSpacing: normal; wordWrap: normal" mathtag="math">
-<table style="MARGIN-RIGHT: 1px" cellspacing="-1" cellpadding="-1">
-<tbody>
-<tr>
-<td style="BORDER-BOTTOM: black 1px solid">4</td></tr>
-<tr>
-<td>7</td></tr></tbody></table><font class="MathJye_mi">x</font>+
-<table style="MARGIN-RIGHT: 1px" cellspacing="-1" cellpadding="-1">
-<tbody>
-<tr>
-<td style="BORDER-BOTTOM: black 1px solid">3</td></tr>
-<tr>
-<td>7</td></tr></tbody></table><font class="MathJye_mi">y</font></span></div><!--EA-->
-<div class="sanwser"><span class="MathJye" style="whiteSpace: nowrap; wordSpacing: normal; wordWrap: normal" mathtag="math">
-<table style="MARGIN-RIGHT: 1px" cellspacing="-1" cellpadding="-1">
-<tbody>
-<tr>
-<td style="BORDER-BOTTOM: black 1px solid">4</td></tr>
-<tr>
-<td>7</td></tr></tbody></table><font class="MathJye_mi">x</font>+
-<table style="MARGIN-RIGHT: 1px" cellspacing="-1" cellpadding="-1">
-<tbody>
-<tr>
-<td style="BORDER-BOTTOM: black 1px solid">3</td></tr>
-<tr>
-<td>7</td></tr></tbody></table><font class="MathJye_mi">y</font></span></div>．
-<br><br>
-<span class="qseq"></span>已知5<sup>x</sup>=6，5<sup>y</sup>=3，则5<sup>x+2y</sup>=<!--BA--><div class="quizPutTag">54</div><!--EA--><div class="sanwser">54</div>．
-<br><br>
-<span class="qseq"></span>方程（x+3）（2x-5）-（2x+1）（x-8）=41的解是<!--BA-->
-<div class="quizPutTag">x=3</div><!--EA-->
-<div class="sanwser">x=3</div>．
-<br><br>
-<span class="qseq"></span>设4x<sup>2</sup>+mx+121是一个完全平方式，则m=<!--BA--><div class="quizPutTag">±44</div><!--EA--><div class="sanwser">±44</div>．
-<br><br>
-<span class="qseq"></span>如果a，b，c是整数，且a<sup>c</sup>=b，那么我们规定一种记号（a，b）=c，例如3<sup>2</sup>=9，那么记作（3，9）=2，根据以上规定，求（-2，1）=<!--BA-->
-<div class="quizPutTag">0</div><!--EA-->
-<div class="sanwser">0</div>．
-<br><br>
-<span class="qseq"></span>如图，边长为m+4的正方形纸片剪出一个边长为m的正方形之后，剩余部分可剪拼成一个矩形，若拼成的矩形一边长为4，则另一边长为<!--BA-->
-<div class="quizPutTag">2m+4</div><!--EA-->
-<div class="sanwser">2m+4</div>．<br><img style="VERTICAL-ALIGN: middle" alt="魔方格" src="http://pic3.mofangge.com/upload/papers/c02/20151029/201510292001540942311.png">
-<br><br>
-<span class="qseq"></span>小明郊游去爬一座山，上山时每小时行3千米，下山时每小时行5千米，小明往返的平均速度是<!--BA-->
-<div class="quizPutTag"><span class="MathJye" style="whiteSpace: nowrap; wordSpacing: normal; wordWrap: normal" mathtag="math">
-<table style="MARGIN-RIGHT: 1px" cellspacing="-1" cellpadding="-1">
-<tbody>
-<tr>
-<td style="BORDER-BOTTOM: black 1px solid">15</td></tr>
-<tr>
-<td>4</td></tr></tbody></table></span>千米/时</div><!--EA-->
-<div class="sanwser"><span class="MathJye" style="whiteSpace: nowrap; wordSpacing: normal; wordWrap: normal" mathtag="math">
-<table style="MARGIN-RIGHT: 1px" cellspacing="-1" cellpadding="-1">
-<tbody>
-<tr>
-<td style="BORDER-BOTTOM: black 1px solid">15</td></tr>
-<tr>
-<td>4</td></tr></tbody></table></span>千米/时</div>．
-<br><br>
-<span class="qseq"></span>计算：<br>（1）-3x[5x-3（x-4）-6]<br>（2）（2x<sup>3</sup>y）<sup>2</sup>•（-2xy）+（-2x<sup>3</sup>y）<sup>3</sup>÷（2x<sup>2</sup>）<br>（3）（9m<sup>2</sup>n-6m<sup>2</sup>n<sup>2</sup>-3m<sup>2</sup>）÷（-3m<sup>2</sup>）
-<br><br>
-<span class="qseq"></span>求代数式（2x-1）<sup>2</sup>-x（x+4）+（x-2）（x+2）的值，已知x<sup>2</sup>-2x-1=0．
-<br><br>
-<span class="qseq"></span>任意给定一个非零数m，按下列程序计算．<br><img style="VERTICAL-ALIGN: middle" alt="魔方格" src="http://pic3.mofangge.com/upload/papers/c02/20151211/201512111201324842932.png"><br>（1）请用含m的代数式表示该计算程序，并给予化简．<br>（2）当输入的m=-1时，求代数式的值．
-<br><br>
-<span class="qseq"></span>用同样大小的黑色棋子按如图所示的规律摆放：<br><img alt="魔方格" src="http://pic3.mofangge.com/upload/papers/c02/20151029/2015102922265739611732.png" style="vertical-align:middle"><br>（1）第5个图形有多少黑色棋子？<br>（2）第几个图形有2013颗黑色棋子？请说明理由．
-<br><br>
-<span class="qseq"></span>已知a+b=5，ab=2，求下列各式的值．<br>（1）a<sup>2</sup>+b<sup>2</sup>；<br>（2）（a-b）<sup>2</sup>．
-<br><br>
-<img alt="魔方格" src="http://pic3.mofangge.com/upload/papers/c02/20151029/201510292149256734348.png" style="vertical-align:middle;FLOAT:right"><span class="qseq"></span>如图，某市有一块长为（3a+b）米，宽为（2a+b）米的长方形地块，规划部门计划将阴影部分进行绿化，中间将修建一座雕像，则绿化的面积是多少平方米？并求出当a=3，b=2时的绿化面积．
-<br><br>
+<style type="text/css">/*ħ????????*/
+.artpreview fieldset { padding-top: 10px; font-size: 14px; clear: both; overflow: hidden; zoom: 1; line-height: 24px; font-family: "????",sans-serif; position: relative; }
+.artpreview fieldset legend { padding: 5px 0; display: block; margin: 5px; background: #f1f1f1; color: #000; overflow: hidden; zoom: 1; }
+.queserror { border: 1px dotted #f00; padding: 2px; }
+fieldset.quesborder { font-size: 13px; display: block; border: 1px solid #ccc; padding: 0; font-family: ????,sans-serif; line-height: 25px; letter-spacing: 1px; word-break: break-all; }
+fieldset.queserror { border: 1px solid #f00; font-size: 12px; padding: 2px; }
+fieldset.quesborder td, fieldset.queserror td { line-height: 16px; }
+fieldset.quesborder em, fieldset.queserror em { font-style: normal; position: absolute; top: 10px; left: 20px; font-weight: bold; }
+fieldset.thiserror1 { border: 1px solid #f00; }
+fieldset.thiserror1 legend { border: 4px solid #f00; }
+fieldset.thiserror2 { border: 1px solid #ADCD3C; }
+fieldset.thiserror2 legend { border: 4px solid #ADCD3C; }
+fieldset.thisques { border: 1px solid blue; }
+fieldset.thison { border: 1px solid #A9C9E2; }
+fieldset.thison div.border { border: 1px solid #ADCD3C; background-color: #F2FDDB; }
+fieldset, img { border: 0 none; }
+table.thison { border: 1px solid #000; }
+table.thiserr { border: 1px solid #000; }
+fieldset.thisvip1 { border: 1px solid #00F; }
+fieldset.thisvip1 legend { border: 4px solid #000; }
+fieldset.status17 { border: 1px solid #ff00ff; }
+fieldset.status17 legend { border: 4px solid #ff00ff; }
+.selectoption { vertical-align: middle; font-size: 14px; padding: 2px; }
+.selectoption:hover { color: #EA8511; }
+.selectoption label { padding: 4px; }
+fieldset.quesbordere { border: 2px dotted #f00; }
+.answer { border: 1px dotted #ffffff; }
+ol.answer li, ul.answer li { padding: 1px; font-size: 14px; }
+ol.answer li:hover { background: #f2f2f2; }
+.collapseContainerPanel { border: 0; }
+.collapsePanelHeader { height: 30px; font-weight: bold; padding: 6px 0 0 0; }
+.collapseHeaderContent { float: left; padding-left: 5px; }
+.collapseContent { margin: 0; padding: 0; border: 1px solid #ccc; border-top: 0; }
+span.fieldtip { height: 24px; line-height: 24px; font-size: 12px; text-align: left; display: block; overflow: hidden; opacity: 1; padding: 0; padding: 5px 10px; margin-top: -1px; border: 1px solid #ccc; border-top: none 0px; background: #f6f6f6; }
+span.fieldtip a { height: 20px; line-height: 20px; display: inline-block; margin-left: 15px; margin-right: 15px; cursor: pointer; color: #000; }
+.pt0 { padding: 2px 0 5px 0; font-size: 14px; font-family: "????",sans-serif; font-weight: 700; }
+.pt1 { overflow: hidden; zoom: 1; clear: both; line-height: 25px; font-size: 14px; padding: 20px 20px 5px 20px; }
+.pt1 img { position: relative; }
+.pt2 { padding: 10px 20px; }
+.pt3, .pt4, .pt5, .pt6, .pt7 { padding: 10px 20px 10px 80px; clear: both; overflow: hidden; zoom: 1; position: relative; }
+.pt8 a:link, .pt8 a:visited { margin-right: 10px; padding: 2px 5px; }
+.pt8 a:hover { background: #fc0; }
+.pt9 { padding: 20px; text-align: right; border: 0 none; }
+
+.ptline { height: 1px; border-top: 1px solid #ccc; margin: 10px 0; }
+
+table.edittable { border-collapse: collapse; text-align: center; margin: 2px; }
+table.edittable th, table.edittable td { line-height: 30px; padding: 5px; white-space: normal; word-break: break-all; border: 1px solid #000; vertical-align: middle; }
+.selectoption label.s.sh, div.s.sh { margin: 1px; border: none; background: none; }
+td.m label { border: 1px solid #f00; padding: 4px; padding-right: 40px; background: url(images/m.png) bottom right no-repeat; display: inline-block; }
+td.r label { padding-right: 40px; background: url(images/r.png) bottom right no-repeat; display: inline-block; }
+
+.sanwser {
+    padding: 4px 10px;
+    margin: 0px;
+    border: 1px solid #ADCD3C;
+    background-color: #F2FDDB;
+    color: #000;
+    display: none;
+}
+/*??ʽ*/
+.MathJye { border: 0 none; direction: ltr; line-height: normal; display: inline-block; float: none; font-family: 'Times New Roman','????'; font-size: 15px; font-style: normal; font-weight: normal; letter-spacing: 1px; line-height: normal; margin: 0; padding: 0; text-align: left; text-indent: 0; text-transform: none; white-space: nowrap; word-spacing: normal; word-wrap: normal; -webkit-text-size-adjust: none; }
+.MathJye div, .MathJye span { border: 0 none; margin: 0; padding: 0; line-height: normal; text-align: left; height: auto; _height: auto; white-space: normal; }
+.MathJye table { border-collapse: collapse; margin: 0; padding: 0; text-align: center; vertical-align: middle; line-height: normal; font-size: inherit; *font-size: 100%; _font-size: 100%; font-style: normal; font-weight: normal; border: 0; float: none; display: inline-block; *display: inline; zoom: 0; }
+.MathJye table td { padding: 0; font-size: inherit; line-height: normal; white-space: nowrap; border: 0 none; width: auto; _height: auto; }
+.MathJye_mi { font-style: italic; }
+
+div.quizPutTag { display: inline; padding: 3px 10px 1px 10px; margin: 0 3px; font-size: 14px; min-width: 30px; min-height: 16px; line-height: 18px; height: auto; border-bottom: 1px solid #0033FF; text-decoration: none; zoom: 1; background: #fff; color: #127176; word-break: break-all; }
+div.quizPutTag:hover { color: #f60; }
+.pt6 span, .ac td span.fleft { white-space: pre; }
+/*????ҳ??*/
+.ques-detail { width: 100%; background: #fcfcfc; }
+.ques-detail a, .ques-detail a:visited { text-decoration: none; color: #555; }
+.ques-detail a:hover { text-decoration: underline; }
+</style> <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script><h2 style="text-align: center;">四川省南充市2015中考数学真题卷</h2>
+<p style="width:720px;overflow:hidden;"><b>1.</b>&nbsp;计算3＋(－3)的结果是(    )<br/>A .6<br/>B .－6<br/>C .1<br/>D .0<br/></p>
+<p style="width:720px;overflow:hidden;"><b>2.</b>&nbsp;<div>下列运算正确的是(    )</div><br/>A .3x-2x=x<br/>B .2x•3x=6x<br/>C .<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>（2x）</m:t></m:r></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:oMath>=4x<br/>D .6x÷2x=3x<br/></p>
+<p style="width:720px;overflow:hidden;"><b>3.</b>&nbsp;如图是某工厂要设计生产的正六棱柱形密封罐的立体图形，它的主视图是(    )<br/>A .<img src="http://pic3.mofangge.com/upload/papers/c02/20151213/20151213191314245353.png"><br/>B .<img src="http://pic3.mofangge.com/upload/papers/c02/20151213/20151213191332091296.png"><br/>C .<img src="http://pic3.mofangge.com/upload/papers/c02/20151213/20151213191350062254.png"><br/>D .<img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131914238681456.png"><br/></p>
+<p style="width:720px;overflow:hidden;"><b>4.</b>&nbsp;学校机房今年和去年共购置了100台计算机，已知今年购置计算机数量是去年购置计算机数量的3倍，则今年购置计算机的数量是(    )<br/>A .25台<br/>B .50台<br/>C .75台<br/>D .100台<br/></p>
+<p style="width:720px;overflow:hidden;"><b>5.</b>&nbsp;如图，一艘海轮位于灯塔P的北偏东方向55°，距离灯塔为2 海里的点A处。如果海轮沿正南方向航行到灯塔的正东位置，海轮航行的距离AB长是(    )<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131913074593070.png" class="editor_img_selected"><br><br/>A .2海里<br/>B .2sin55°海里<br/>C .2cos55°海里<br/>D .2tan55°海里<br/></p>
+<p style="width:720px;overflow:hidden;"><b>6.</b>&nbsp;<div>若m＞n，下列不等式不一定成立的是(    )</div><br/>A .m+2＞n+2<br/>B .2m＞2n<br/>C .<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:t>m</m:t></m:r></m:num><m:den><m:r><m:t>2</m:t></m:r></m:den></m:f></m:oMath>＞<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:t>n</m:t></m:r></m:num><m:den><m:r><m:t>2</m:t></m:r></m:den></m:f></m:oMath><br/>D .<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>m</m:t></m:r></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:oMath>＞<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>n</m:t></m:r></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:oMath><br/></p>
+<p style="width:720px;overflow:hidden;"><b>7.</b>&nbsp;如图是一个可以自由转动的正六边形转盘，其中三个正三角形涂有阴影。转动指针，指针落在有阴影的区域内的概率为a；如果投掷一枚硬币，正面向上的概率为b．关于a，b大小的正确判断是(    )<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131907367223507.png"><br><br/>A .a＞b<br/>B .a＝b<br/>C .a＜b<br/>D .不能判断<br/></p>
+<p style="width:720px;overflow:hidden;"><b>8.</b>&nbsp;如图，PA和PB是⊙O的切线，点A和B是切点，AC是⊙O的直径，已知∠P＝40°，则∠ACB的大小是(    )<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/2015121319060566512267.png"><br/>A .60°<br/>B .65°<br/>C .70°<br/>D .75°<br/></p>
+<p style="width:720px;overflow:hidden;"><b>9.</b>&nbsp;如图，菱形ABCD的周长为8cm，高AE长为<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:rad><m:radPr><m:degHide m:val="on" /></m:radPr><m:deg /><m:e><m:r><m:t>3</m:t></m:r></m:e></m:rad></m:oMath>cm，则对角线AC长和BD长之比为(    )<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131344339225014.Png"><br/>A .1:2<br/>B .1:3　<br/>C .<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>1:</m:t></m:r><m:rad><m:radPr><m:degHide m:val="on" /></m:radPr><m:deg /><m:e><m:r><m:t>2</m:t></m:r></m:e></m:rad></m:e><m:sup /></m:sSup></m:oMath><br/>D .<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>1:</m:t></m:r><m:rad><m:radPr><m:degHide m:val="on" /></m:radPr><m:deg /><m:e><m:r><m:t>3</m:t></m:r></m:e></m:rad></m:e><m:sup /></m:sSup></m:oMath><br/></p>
+<p style="width:720px;overflow:hidden;"><b>10.</b>&nbsp;<div>关于x的一元二次方程<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>x</m:t></m:r></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:oMath>+2mx+2n=0有两个整数根且乘积为正，关于y的一元二次方程<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>y</m:t></m:r></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:oMath>+2ny+2m=0同样也有两个整数根且乘积为正，给出三个结论：①这两个方程的根都负根；②<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>（m-1）</m:t></m:r></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:oMath>+<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>（n-1）</m:t></m:r></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:oMath>≥2；③-1≤2m-2n≤1，其中正确结论的个数是(    )</div><br/>A .0个<br/>B .1个<br/>C .2个<br/>D .3个<br/></p>
+<p style="width:720px;overflow:hidden;"><b>11.</b>&nbsp;
+                            计算<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:rad><m:radPr><m:degHide m:val="on" /></m:radPr><m:deg /><m:e><m:r><m:t>8</m:t></m:r></m:e></m:rad></m:oMath>-2sin45°的结果是__________．
+                        </p>
+<p style="width:720px;overflow:hidden;"><b>12.</b>&nbsp;
+                            不等式<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:t>x-1</m:t></m:r></m:num><m:den><m:r><m:t>2</m:t></m:r></m:den></m:f></m:oMath>＞1的解集是__________．
+                        </p>
+<p style="width:720px;overflow:hidden;"><b>13.</b>&nbsp;如图，点D在△ABC边BC的延长线上，CE平分∠ACD，∠A＝80°，∠B＝40°，则∠ACE的大小是__________度。<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131903323483042.png"><br></p>
+<p style="width:720px;overflow:hidden;"><b>14.</b>&nbsp;<div>从分别标有数-3，-2，-1，0，1，2，3的七张卡片中，随机抽取一张，所抽卡片上数的绝对值小于2的概率是__________．</div></p>
+<p style="width:720px;overflow:hidden;"><b>15.</b>&nbsp;
+                            已知关于x，y的二元一次方程组<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:r><m:t>{</m:t></m:r><m:eqArr><m:e><m:r><m:rPr><m:sty m:val="p" /></m:rPr><m:t>2x+3y=k</m:t></m:r></m:e></m:eqArr><m:r><m:t>.</m:t></m:r></m:oMath>的解互为相反数，则k的值是__________．
+                        </p>
+<p style="width:720px;overflow:hidden;"><b>16.</b>&nbsp;如图，正方形ABCD边长为1，以AB为直径作半圆，点P是CD 中点，BP与半圆交于点Q，连结DQ．给出如下结论：①DQ＝1；②<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:rPr><m:sty m:val="p" /></m:rPr><m:t>PQ</m:t></m:r></m:num><m:den><m:r><m:rPr><m:sty m:val="p" /></m:rPr><m:t>BQ</m:t></m:r></m:den></m:f></m:oMath>=<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:t>3</m:t></m:r></m:num><m:den><m:r><m:t>2</m:t></m:r></m:den></m:f></m:oMath>；③<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>△</m:t></m:r><m:r><m:rPr><m:sty m:val="p" /></m:rPr><m:t>PDQ</m:t></m:r></m:sub></m:sSub></m:oMath>＝<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:t>1</m:t></m:r></m:num><m:den><m:r><m:t>8</m:t></m:r></m:den></m:f></m:oMath>；④cos∠ADQ=<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:t>3</m:t></m:r></m:num><m:den><m:r><m:t>5</m:t></m:r></m:den></m:f></m:oMath>．其中正确结论是__________。（填写序号）<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151215/201512150944193154796.jpg"><br></p>
+<p style="width:720px;overflow:hidden;"><b>17.</b>&nbsp;计算：（a+2-<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:t>5</m:t></m:r></m:num><m:den><m:r><m:t>a-2</m:t></m:r></m:den></m:f></m:oMath>）•<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:t>2a-4</m:t></m:r></m:num><m:den><m:r><m:t>3-a</m:t></m:r></m:den></m:f></m:oMath>．</p>
+<p style="width:720px;overflow:hidden;"><b>18.</b>&nbsp;某学校为了了解学生上学交通情况，选取九年级全体学生进行调查。根据调查结果，画出扇形统计图（如图），图中“公交车”对应的扇形圆心角为60°，“自行车”对应的扇形圆心角为120°。已知九年级乘公交车上学的人数为50人。<br>（1）九年级学生中，骑自行车和乘公交车上学哪个更多？多多少人？<br>（2）如果全校有学生2 000人，学校准备的400个自行车停车位是否足够？<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131857443586367.png"><br></p>
+<p style="width:720px;overflow:hidden;"><b>19.</b>&nbsp;如图，△ABC中，AB＝AC，AD⊥BC，CE⊥AB，AE＝CE．<br>求证：（1）△AEF≌△CEB；（2）AF＝2CD．<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131853530726132.png"><br></p>
+<p style="width:720px;overflow:hidden;"><b>20.</b>&nbsp;<div>已知关于x的一元二次方程（x-1）（x-4）=<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>p</m:t></m:r></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:oMath>，p为实数。</div><div>（1）求证：方程有两个不相等的实数根；</div><div>（2）p为何值时，方程有整数解。（直接写出三个，不需说明理由）</div></p>
+<p style="width:720px;overflow:hidden;"><b>21.</b>&nbsp;反比例函数y=<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:t>k</m:t></m:r></m:num><m:den><m:r><m:t>x</m:t></m:r></m:den></m:f></m:oMath>(k≠0)与一次函数y=mx+b(m≠)交于点A（1，2k－1）．<br>（1）求反比例函数的解析式；<br>（2）若一次函数与x轴交于点B，且△AOB的面积为3，求一次函数的解析式．</p>
+<p style="width:720px;overflow:hidden;"><b>22.</b>&nbsp;如图，矩形纸片ABCD，将△AMP和△BPQ分别沿PM和PQ折叠（AP＞AM），点A和点B都与点E重合；再将△CQD沿DQ折叠，点C落在线段EQ上点F处。<br>（1）判断△AMP，△BPQ，△CQD和△FDM中有哪几对相似三角形？（不需说明理由）<br> （2）如果AM＝1，sin∠DMF＝<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:f><m:fPr><m:type m:val="bar" /></m:fPr><m:num><m:r><m:t>3</m:t></m:r></m:num><m:den><m:r><m:t>5</m:t></m:r></m:den></m:f></m:oMath>，求AB的长。<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131849088557835.jpg"><br></p>
+<p style="width:720px;overflow:hidden;"><b>23.</b>&nbsp;某工厂在生产过程中每消耗1万度电可以产生产值5.5万元。电力公司规定，该工厂每月用电量不得超过16万度；月用电量不超过4万度时，单价都是1万元/万度；超过4万度时，超过部分电量单价将按用电量进行调整，电价y与月用电量x的函数关系可以用如图来表示。（效益＝产值－用电量×电价）；<br> （1）设工厂的月效益为z（万元），写出z与月用电量x（万度）之间的函数关系式，并写出自变量的取值范围； <br>（2）求工厂最大月效益。<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131844524535582.png"></p>
+<p style="width:720px;overflow:hidden;"><b>24.</b>&nbsp;<div>如图，点P是正方形ABCD内一点，点P到点A、B和D的距离分别为1，2<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:rad><m:radPr><m:degHide m:val="on" /></m:radPr><m:deg /><m:e><m:r><m:t>2</m:t></m:r></m:e></m:rad></m:oMath>，<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:rad><m:radPr><m:degHide m:val="on" /></m:radPr><m:deg /><m:e><m:r><m:t>10</m:t></m:r></m:e></m:rad></m:oMath>，△ADP沿点A旋转至△ABP′，连结PP′，并延长AP与BC相交于点Q．</div><div>（1）求证：△APP′是等腰直角三角形；</div><div>（2）求∠BPQ的大小；</div><div>（3）求CQ的长。<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131349359547114.png"><br></div></p>
+<p style="width:720px;overflow:hidden;"><b>25.</b>&nbsp;已知抛物线y=-<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSup><m:e><m:r><m:t>x</m:t></m:r></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:oMath>+bx+c与x轴交于点A（m－2，0）和B（2m＋1，0）（点A在点B的左侧），与y轴相交于点C，顶点为P，对称轴为l：x＝1．<br>（1）求抛物线解析式。<br>（2）直线y＝kx＋2(k≠0)与抛物线相交于两点M（<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSub><m:e><m:r><m:t>x</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub></m:oMath>，<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSub><m:e><m:r><m:t>y</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub></m:oMath>），N(<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSub><m:e><m:r><m:t>x</m:t></m:r></m:e><m:sub><m:r><m:t>2</m:t></m:r></m:sub></m:sSub></m:oMath>，<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSub><m:e><m:r><m:t>y</m:t></m:r></m:e><m:sub><m:r><m:t>2</m:t></m:r></m:sub></m:sSub></m:oMath>)（<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSub><m:e><m:r><m:t>x</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub></m:oMath>＜<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSub><m:e><m:r><m:t>x</m:t></m:r></m:e><m:sub><m:r><m:t>2</m:t></m:r></m:sub></m:sSub></m:oMath>），当|<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSub><m:e><m:r><m:t>x</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub></m:oMath>-<m:oMath xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:sSub><m:e><m:r><m:t>x</m:t></m:r></m:e><m:sub><m:r><m:t>2</m:t></m:r></m:sub></m:sSub></m:oMath>|&nbsp;最小时，求抛物线与直线的交点M和N的坐标。<br>（3）首尾顺次连接点O，B，P，C构成多边形的周长为L．若线段OB在x轴上移动，求L最小值时点O，B移动后的坐标及L的最小值。<br><img src="http://pic3.mofangge.com/upload/papers/c02/20151213/201512131418433142454.png"><br></p>
+<script src="F:\mfg.newwork\testWord\testWord\css\Commjs2.js"></script>

@@ -133,6 +133,9 @@
   <data name="N1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\N1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="N2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\N2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="NumberingList" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\numberinglist.htm;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
